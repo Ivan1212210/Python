@@ -12,5 +12,5 @@ for month in range(1, months + 1):
         spend += spend * increase
     else:
         month_rez += spend - salary
-money_capital = round(month_rez)
+money_capital = round(month_rez) + 1
 print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", money_capital)
