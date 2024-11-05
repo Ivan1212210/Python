@@ -3,6 +3,7 @@ def index_found(a, b):
     for i in range(len(a)):
         if(a[i] == b):
             return i
+    return None        
 
 items_list = ['яблоко', 'банан', 'апельсин', 'груша', 'киви', 'банан']
 
